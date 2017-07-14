@@ -1,0 +1,52 @@
+@charset "utf-8";.logo{width:230px;float:right;transition:all .6s ease 0}.divHeader 
+
+
+		 #sistema #menuCalculo{width:100%;max-width:200px;margin:0 auto}
+		 #sistema #menuResponsive{
+		 	display:block;
+		 	background-color:#006837!important;
+		 	background-image:linear-gradient(to bottom,#006837,#006837);
+		 	border:1px solid #006837;
+		 	box-shadow:0 1px 0 #006837 inset,0 2px 0 #006837 inset,0 1px 1px rgba(0,0,0,0.2);
+		 	color:#FFF;margin:10px auto;border-radius:4px;cursor:pointer;padding:7px 0;
+		 	width:100%;text-align:center;font-size:14pt}
+
+		 	#sistema #menuResponsive::after{color:#fff;content:"";font-family:FontAwesome;font-size:11px;position:relative;right:-18px;top:-4px}
+
+		 	#sistema .botones{
+		 		position:absolute;
+		 		transition:left .2s ease-out 0;left:-360px;width:200px;display:none}
+
+		 		#sistema .botones .boton button{
+		 			background:#195628;border:medium none;color:#fff;padding:10px 2px;width:100%}#sistema .botones .boton button:hover,#sistema .botones .boton button.boton_seleccionado{background:#B5E294;color:#195628}
+
+
+		 			#sistema .valores{
+		 				border:10px solid #195628;
+		 				float:left;width:100%;
+		 				height:480px;
+		 				padding-left:18px;
+		 				padding-top:12px;
+		 				margin-left:1px
+		 			}
+
+
+
+		 			#sistema .valores .ingreso label{width:51%;float:left;margin-bottom:25px;font-weight:700;color:white;}
+
+
+		 			#sistema .valores .ingreso input{width:20%;height:20px;float:left}#sistema .valores .ingreso select{width:40%;height:28px;float:left}
+
+		 			#sistema .valores .resultados label{width:51%;float:left;color:white;}
+
+		 			#sistema .valores .resultados input{width:20%;height:20px;float:left;text-align:right}
+
+		 			#sistema .valores button{position:absolute;bottom:-34px;right:0px;font-size:15px;padding:5px 7px}
+
+		 			#sistema #tituloTienda{text-align:center;color:#ffffff;font-weight:bolder;margin-bottom:13px;font-size:20px}
+
+		 			#sistema .activo{left:auto;margin-right:0;display:block!important}.divOculto{display:none}
+
+		 			.tp-bannertimer{z-index:100!important}
+
+		 			.fadebox{display:none;position:absolute;top:0;left:0;width:100%;height:100%;background-color:#000;z-index:1001;-moz-opacity:.8;opacity:.8;filter:alpha(opacity=80)}.overbox{display:none;position:absolute;top:25%;left:45%;width:auto;height:auto;padding:25px 50px;z-index:1002;overflow:auto;background:#FFF}#pdfManual{float:right;background:#096637;border-radius:8px}#pdfManual:hover{margin-right:15px;padding:5px 15px;box-shadow:none}#pdfManual a{color:#FFF;text-decoration:none;font-size:12px}@media only screen and (min-width: 960px) and (max-width: 1199px){#sistema .valores button{bottom:42px}#pdfManual a{font-size:9px}}

@@ -1,0 +1,40 @@
+
+/*-----start paralax------*/
+
+
+.parallax{
+	background: url("fondo4.jpg") repeat fixed 100%;
+
+
+}
+.noticias{
+	background: url("img/1.jpg") repeat fixed 100%;
+
+
+}
+.actualidad{
+	background: url("dondo.jpg") repeat fixed 100%;
+}
+
+
+
+.trabaje{
+	background: url("img/1.jpg") repeat fixed 100%;
+}
+
+.calculomaterial{
+  background: url("fondo4.jpg") repeat fixed 100%;
+}
+
+.sistema{
+  background: url("img/sig.jpg") repeat fixed 100%;
+}
+
+
+
+/*-----end paralax------*/
+
+
+
+
+
